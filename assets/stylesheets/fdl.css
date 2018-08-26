@@ -58,6 +58,9 @@ p, .m-0 {
 .p-b-75 {
   padding-bottom: 75px;
 }
+.auto-margin {
+  margin: auto;
+}
 
 .btn, .btn:hover, .btn:focus, .btn:active, .btn:visited {
   padding: 12px 15px;
@@ -79,6 +82,9 @@ p, .m-0 {
 }
 .footer {
   background: #000a29;
+}
+a.white-text:hover {
+  color: #fff;
 }
 
 @media (min-width: 768px) {

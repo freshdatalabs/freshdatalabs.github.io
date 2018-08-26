@@ -17,10 +17,32 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-    <!-- <link rel="shortcut icon" type="image/png" href="/images/favicon.ico"/> -->
+    <link rel="shortcut icon" type="image/png" href="/assets/images/favicon.ico"/>
   </head>
   <body>
     <section class="head-section">
+      <div class="container-fluid">
+        <div class="row p-t-20">
+          <div class="col-sm-3 col-xs-12">
+            <a href="/">
+              <img src="/assets/images/logo.png" class="img-responsive" width="200px"/>
+            </a>
+          </div>
+          <div class="col-sm-offset-2 col-sm-7 col-xs-12 hidden-xs">
+            <div class="row">
+              <div class="col-sm-offset-3 col-sm-3 col-xs-12 text-center">
+                <a class="white-text" href="#about">About</a>
+              </div>
+              <div class="col-sm-3 col-xs-12 text-center">
+                <a class="white-text" href="#how-it-works">How it works</a>
+              </div>
+              <div class="col-sm-3 col-xs-12 text-center">
+                <a class="white-text" href="#contact">Contact</a>
+              </div>
+            </div>
+          </di>
+        </div>
+      </div>
       <div class="container">
         <div class="row p-t-75 p-b-75">
           <div class="row-sm-height">
@@ -45,7 +67,76 @@
       </div>
     </section>
 
-    <section class="gray p-t-75 p-b-75">
+    <section class="p-t-75 p-b-75 gray" id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-offset-2 col-sm-8 col-xs-12 text-center">
+            <h2>About US</h2>
+            <div class="row p-t-50">
+              <div class="col-sm-6 col-xs-12">
+                <h4 class="p-b-10">We generate inbound qualified leads to feed hungry sales teams.</h4>
+                <p>We power inbound marketing programs that generate qualified leads and nurture sales opportunities. We build vetting and nurturing systems to ensure that our clients can scale up their marketing and sales efforts intelligently.</p>
+              </div>
+              <div class="col-sm-6 col-xs-12">
+                <h4 class="p-b-10">Industry-specific lead generation models that get you leads that no other data provider can!</h4>
+                <p>Our research analysts analyze 50 million companies and pick the right prospects for you! So when you email them, they respond to you like they’ve known you for a while!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="p-t-75 p-b-75">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-offset-2 col-sm-8 col-xs-12 text-center">
+            <h2>Industry-specific lead generation models that get you leads that no other data provider can!</h2>
+            <p class="p-t-10">Our research analysts analyze 50 million companies and pick the right prospects for you! So when you email them, they respond to you like they’ve known you for a while!</p>
+            <div class="row p-t-50">
+              <div class="col-sm-4 col-xs-12">
+                <div class="row">
+                  <div class="col-xs-12">
+                    <img src="/assets/images/group-8.png" class="img-responsive auto-margin" width="60px">
+                  </div>
+                  <div class="col-xs-12">
+                    <h4 class="p-t-10">Retail & Ecommerce</h4>
+                    <p>Retail companies and Ecommerce companies lists segmented by attributes like store count, omnichannel presence etc.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-4 col-xs-12">
+                <div class="row">
+                  <div class="col-xs-12">
+                    <img src="/assets/images/chart.png" class="img-responsive auto-margin" width="60px">
+                  </div>
+                  <div class="col-xs-12">
+                    <h4 class="p-t-10">Saas</h4>
+                    <p>SaaS leads that are classified based on whether they really sell software on subscription or socks & scarves in a box.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-4 col-xs-12">
+                <div class="row">
+                  <div class="col-xs-12">
+                    <img src="/assets/images/growth.png" class="img-responsive auto-margin" width="60px">
+                  </div>
+                  <div class="col-xs-12">
+                    <h4 class="p-t-10">Mobile</h4>
+                    <p>Data on all app publishers across the world with versatile segmentation that  helps  you  target with  precision!</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xs-12 p-t-50">
+                <button class="btn green" onclick="scroll_to_contact_form();">LEARN MORE</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="gray p-t-75 p-b-75" id="how-it-works">
       <div class="container">
         <div class="row">
           <div class="row-sm-height">
@@ -119,10 +210,11 @@
       </div>
     </section>
 
-    <section class="cta gray p-t-75 p-b-75">
+    <section class="cta p-t-75 p-b-75" id="contact">
       <div class="container">
         <div class="row">
-          <div class="col-md-6 col-sm-8 col-xs-12 text-center col-centered">
+          <div class="col-sm-offset-2 col-sm-8 col-xs-12 text-center">
+            <h2 class="p-b-50">Ready To Make Your Entire Team More Effective?</h2>
             <div class="typeform-widget" data-url="https://siva127.typeform.com/to/aQ91CI" data-transparency="100" style="width: 100%; height: 300px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script> <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"> powered by <a href="https://admin.typeform.com/signup?utm_campaign=aQ91CI&utm_source=typeform.com-12418797-Basic&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=EN" style="color: #999" target="_blank">Typeform</a> </div>
           </div>
         </div>
@@ -132,7 +224,7 @@
     <section class="footer p-t-75 p-b-10">
       <div class="container">
         <div class="row">
-          <div class="col-md-5 col-sm-6 col-xs-12">
+          <div class="col-md-4 col-sm-4 col-xs-12">
             <div class="row">
               <div class="col-xs-12">
                 <h5 class="white-text underline">Contact us</h5>
@@ -143,11 +235,17 @@
               </div>
             </div>
           </div>
-          <div class="col-md-7 col-sm-6 col-xs-12">
+          <div class="col-md-4 col-sm-4 col-xs-12">
             <h5 class="white-text underline">Social Links</h5>
-            <p class="p-t-10 opacity-8"><a class="white-text" href="#">Facebook</a></p>
-            <p class="p-t-10 opacity-8"><a class="white-text" href="#">Twitter</a></p>
-            <p class="p-t-10 opacity-8"><a class="white-text" href="#">LinkedIn</a></p>
+            <p class="p-t-10 opacity-8"><a class="white-text" target="_blank" href="https://Facebook.com/freshdatalabs">Facebook</a></p>
+            <p class="p-t-10 opacity-8"><a class="white-text" target="_blank" href="https://twitter.com/freshdatalabs">Twitter</a></p>
+            <p class="p-t-10 opacity-8"><a class="white-text" target="_blank" href="https://linkedin.com/freshdatalabs">LinkedIn</a></p>
+          </div>
+          <div class="col-md-4 col-sm-4 col-xs-12">
+            <h5 class="white-text underline">Company</h5>
+            <p class="p-t-10 opacity-8"><a class="white-text" href="#about">About</a></p>
+            <p class="p-t-10 opacity-8"><a class="white-text" href="#how-it-works">How it works</a></p>
+            <p class="p-t-10 opacity-8"><a class="white-text" href="#contact">Contact</a></p>
           </div>
         </div>
         <div class="row">
