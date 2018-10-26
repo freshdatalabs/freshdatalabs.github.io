@@ -100,3 +100,34 @@ a.white-text:hover {
     height: 100%;
   }
 }
+.header {
+  background-color: #fff;
+  border-bottom: 1px solid lightgray;
+  box-shadow: 0px 0px 1px 1px lightgrey;
+  padding-bottom: 20px;
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 0;
+  z-index: 1000;
+  padding-left: 30px;
+}
+.gray-text {
+  color: #6F7C88;
+}
+.header-text:hover {
+  color: #391df1;
+  text-decoration: none;
+}
+.header-text {
+  font-size: 16px;
+}
+.f-35 {
+  font-size: 35px;
+}
+.social-links a {
+  padding-right: 10px;
+}
+.social-links a:hover {
+  text-decoration: none;
+}
